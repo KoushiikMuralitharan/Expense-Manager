@@ -1,4 +1,4 @@
-async function getExpenseDetails(){
+/*async function getExpenseDetails(){
    // fetch is an asynchronous function
     const result =await fetch('https://expense-manager-c3l0.onrender.com/get-expenses');
    // this result is an object which contains the information about the url that  we sent to fetch .
@@ -25,3 +25,7 @@ async function addNewExpense(){
     console.log(data);
 }
 document.getElementById('button').addEventListener('click',addNewExpense);
+*/
+// window.localStorage.setItem('Koushiik',128);
+// var ans = window.localStorage.getItem('Koushiik');
+// console.log(ans);

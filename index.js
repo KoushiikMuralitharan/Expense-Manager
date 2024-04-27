@@ -64,7 +64,7 @@ app.post('/add-expense', async (req,res)=>{
             // sending a response that the field is added in the field.
             res.json({
                 "status": "success",
-                "message" : 'entery successfully added'
+                "message" : 'entry successfully added'
             })
         } catch(error){
             res.status(500).json({
